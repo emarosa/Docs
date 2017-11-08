@@ -29,10 +29,16 @@ This is a practical academic exercise to incentive the study of DevOps and Softw
 * Step 6: Show kibana monitoring the recording of new **pedidos**
 * Step 7: "simulate" a **PEDIDO service** (>2 instances) problem and the automated execution of the selfhealing; 
 
-### Running SOA-Monolith
+# Escolhas de arquitetura
 
-```sh
- $ mvn clean package
- $ mvn spring-boot:run
+## SOA-Monolith
+    Projeto encontrado inicialmente  com uma arquitetura monolitica, 
+    Nossa primeira ação foi dividir a aplicação em dois serviços, 
+    detalhados abaixo
 
-```
+###  PEDIDO service 
+    Pedidos service - rodando na porta 8081, nesse serviço encontram-se as rotas destinadas as logicas de pedidos
+    
+###  CLIENTE service
+    Cliente service - rodando na porta 8080, nesse serviço encontram-se as rotas destinadas as logicas de pedidos
+
