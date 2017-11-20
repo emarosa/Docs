@@ -32,13 +32,15 @@ This is a practical academic exercise to incentive the study of DevOps and Softw
 # Escolhas de arquitetura
 
 ## SOA-Monolith
-    Projeto encontrado inicialmente  com uma arquitetura monolitica, 
+    Utilizando o paper 9 como base para definição de arquitetura,o padrão utilizado inicialmente foi o 
+    "MP1-Enable the Continuous Integration", pois o contexto era o mesmo do contexto recomendado a este padrão (aplicação rodando atualmente de forma monolitica, e houve a decisão de mudar para microserviços),logo, a aplicação foi decomposta em dois serviçoes distintos, e foi habilitado o continuous integration.
+    Após essa fase ,
     Nossa primeira ação foi dividir a aplicação em dois serviços, 
     detalhados abaixo
+    
 
 ###  PEDIDO service 
     Pedidos service - rodando na porta 8081, nesse serviço encontram-se as rotas destinadas as logicas de pedidos
     
 ###  CLIENTE service
     Cliente service - rodando na porta 8080, nesse serviço encontram-se as rotas destinadas as logicas de pedidos
-
