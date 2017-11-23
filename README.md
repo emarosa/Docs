@@ -12,7 +12,7 @@ This is a practical academic exercise to incentive the study of DevOps and Softw
 
 ### Steps 
 - [x] 1. Decompose SOA-Monolith (this repository) in **PEDIDO service** and **CLIENTE service**, and documenting the Architectural Design Decisions;
-2. Write the verification of **Cliente** during recording of a new **Pedido**;
+- [x] 2. Write the verification of **Cliente** during recording of a new **Pedido**;
 3. Write automated tests (Unit Tests);
 4. Pass tests trough pipeline (https://circleci.com/ or Jenkins) using docker;
 5. Deploy Services on Google Cloud or Amazon AWS;
